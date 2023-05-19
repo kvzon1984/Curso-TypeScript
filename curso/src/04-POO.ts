@@ -28,7 +28,7 @@
 //     }
 // }
 
-// Simpificando (REFACTOR) la clase Personaje
+//! -----Simpificando (REFACTOR) la clase Personaje-----
 
 class Personaje {
 
@@ -68,13 +68,11 @@ class Personaje {
         return this._hp
     }
 
-    // LO IDEAL ES QUE NO SE OCUPE EL SETTER PARA REAL;IZAR UN CAMBIO EN LA PROPIEDAD, PARA ESO ES MEJOR
-    // OCUPAR UN METODO, LO MEJOR ES OCUPAR LOS SETTER PARA VALIDAR EL VALOR DE DICHA PROPIEDAD
+    //! LO IDEAL ES QUE NO SE OCUPE EL SETTER PARA REAL;IZAR UN CAMBIO EN LA PROPIEDAD, PARA ESO ES MEJOR
+    //! OCUPAR UN METODO, LO MEJOR ES OCUPAR LOS SETTER PARA VALIDAR EL VALOR DE DICHA PROPIEDAD
     set hp(cantidad: number) {
         this._hp = this._hp + cantidad
     }
-
-
 }
 
 const personaje = new Personaje(
@@ -82,7 +80,6 @@ const personaje = new Personaje(
     'Isaac',
     1,
     100,
-
 )
 
 personaje.cambiarHp(-10)

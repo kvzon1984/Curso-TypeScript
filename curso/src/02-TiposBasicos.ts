@@ -46,8 +46,8 @@ animales.map(x => x.length)
 
 /* T U P L A S */
 
-// ES UNA VARIABLE QUE CONTIENEN UN SET DE DATOS QUE SE ENCUENTRA ORDENADOS
-// NOS PERMITEN GUARDAR DATOS SIEMPRE Y CUANDO SE ENCUENTREN DEFINIDOS.
+//! ES UNA VARIABLE QUE CONTIENEN UN SET DE DATOS QUE SE ENCUENTRA ORDENADOS
+//! NOS PERMITEN GUARDAR DATOS SIEMPRE Y CUANDO SE ENCUENTREN DEFINIDOS.
 
 let tupla: [number, string[]] = [1, ['Felipe', 'Lucas']]
 console.log(tupla);
@@ -75,8 +75,8 @@ type Direccion = {
     }
 
 type Persona = {
-    readonly id: number, // Al poner un readonly le decimos que este valor en inmutable
-    nombre?: string, // El poner un signo de interrogacion le decimos que es opcional
+    readonly id: number, //! Al poner un readonly le decimos que este valor en inmutable
+    nombre?: string, //! El poner un signo de interrogacion le decimos que es opcional
     edad: number,
     talla: Talla,
     direccion: Direccion

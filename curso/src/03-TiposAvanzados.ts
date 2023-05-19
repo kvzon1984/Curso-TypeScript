@@ -1,6 +1,6 @@
 
 /* U N I O N    T Y P E */
-// es cuando nos podemos referir con mas de un tipo hacia una variable
+//! es cuando nos podemos referir con mas de un tipo hacia una variable
 
 let puntaje: number | string = 98
 
@@ -44,7 +44,7 @@ const product: Audit & Product = {
 }
 
 /* L I T E R A L    T Y P E */
-// los tipos literales nos sirve para asignar un valor determinado
+//! los tipos literales nos sirve para asignar un valor determinado
 
 type Fibo = 0 | 1 | 2 | 3 | 5 | 8
 
@@ -63,7 +63,7 @@ const n = toNumber(undefined)
 console.log(n);
 
 /* O P T I O N A L    C H A I N    O P E R A T O R */
-// Este se puede ocupar en tres instancias
+//! Este se puede ocupar en tres instancias
 
 function getUser(id:number) {
     if (id < 0) {
@@ -103,7 +103,7 @@ const user2 = {
 console.log(user2);
 
 // T Y P E    A S S E R T I O N
-// usarlo solo en el caso de que estemos seguros de el dato que vamos a recibir
+//! usarlo solo en el caso de que estemos seguros de el dato que vamos a recibir
 
 const elemento: any = null
 
