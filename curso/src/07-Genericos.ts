@@ -185,7 +185,6 @@ const readOnlyP: Readonly<Punto> = {
     x: 1,
     y: 2,
     desc: 'Soy una descripcion'
-    
 }
 
 
