@@ -52,4 +52,46 @@ function print(t) {
     return t;
 }
 print({ id: '1' });
+class Estado {
+    constructor() {
+        this.data = [];
+    }
+    agregar(t) {
+        this.data.push(t);
+    }
+    getData() {
+        return this.data;
+    }
+}
+class EliminarEstado extends Estado {
+    eliminar(id) {
+        this.data.filter(d => d.id !== id);
+    }
+}
+class EstadoEmpleados extends Estado {
+    recetearEmpleados() {
+    }
+}
+const calendar = { id: '1', fuente: 'Google', duenio: 'Isaac' };
+function getProp(objeto, property) {
+    return objeto[property];
+}
+getProp(calendar, 'duenio');
+getProp(calendar, 'id');
+getProp(calendar, 'fuente');
+const keyVal = {
+    'Soy un generico': 42
+};
+const p = {
+    x: 1,
+};
+const p1 = {
+    x: 1,
+    y: 2
+};
+const readOnlyP = {
+    x: 1,
+    y: 2,
+    desc: 'Soy una descripcion'
+};
 //# sourceMappingURL=07-Genericos.js.map

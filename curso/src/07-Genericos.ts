@@ -3,7 +3,7 @@ function log<V, T>(a: V, b: T): T {
     return b
 }
 
-log<string, number>('dato', 42)
+log<string, boolean>('dato', false)
 log<string, string>('dato', 'Hola mundo')
 
 async function fetchData<T>(recurso: string): Promise<T>{
