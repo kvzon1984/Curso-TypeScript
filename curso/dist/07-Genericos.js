@@ -12,7 +12,7 @@ function log(a, b) {
     console.log(a, b);
     return b;
 }
-log('dato', 42);
+log('dato', false);
 log('dato', 'Hola mundo');
 function fetchData(recurso) {
     return __awaiter(this, void 0, void 0, function* () {

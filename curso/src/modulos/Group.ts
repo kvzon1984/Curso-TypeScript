@@ -7,5 +7,6 @@ export const usuarios = () => {}
 
 const manejaUsuarios = () => {
     console.log('nameja usuarios');
-    
 }
+
+manejaUsuarios()
